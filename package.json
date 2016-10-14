@@ -1,0 +1,16 @@
+{
+  "name": "penis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browserify": "./node_modules/browserify/bin/cmd.js index.js -o output.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "form-data": "^2.1.0"
+  }
+}
